@@ -38,6 +38,10 @@ public class SecondFragment extends Fragment {
         });
     }
 
+    /**
+     * onDestroy is to be ran at the end of a fragment, it
+     * essentially destroys the current fragment
+     */
     @Override
     public void onDestroyView() {
         super.onDestroyView();
